@@ -6,6 +6,31 @@ import cart from "../assets/images/cart.svg";
 import menu from "../assets/images/menu.svg"
 import newsLetter from "../assets/images/newsletter.png";
 import mainBanner1 from "../assets/images/main-banner-1.jpg"
+import laptop from "../assets/images/laptop.webp";
+import catbanner from '../assets/images/catbanner-01.jpg';
+import cartlap from "../assets/images/cartlap.jpeg"
+import catbanner2 from '../assets/images/catbanner-02.jpg';
+import catbanner3 from '../assets/images/catbanner-03.jpg';
+import catbanner4 from '../assets/images/catbanner-04.jpg';
+import services from "../assets/images/service.png";
+import services2 from "../assets/images/service-02.png";
+import services3 from "../assets/images/service-03.png"
+import services4 from "../assets/images/service-04.png"
+import services5 from "../assets/images/service-05.png"
+import camera from "../assets/images/camera.jpg"
+import tv from "../assets/images/tv.jpg"
+import watch from "../assets/images/watch.jpg"
+import headphone from "../assets/images/headphone.jpg"
+import speaker from "../assets/images/speaker.jpg"
+import brand1 from "../assets/images/brand-01.png"
+import brand2 from "../assets/images/brand-02.png"
+import brand3 from "../assets/images/brand-03.png"
+import brand4 from "../assets/images/brand-04.png"
+import brand5 from "../assets/images/brand-05.png"
+import brand6 from "../assets/images/brand-06.png"
+import brand7 from "../assets/images/brand-07.png"
+import blog1 from "../assets/images/blog-1.jpg"
+
 
 export default {
     compare,
@@ -15,4 +40,28 @@ export default {
     menu,
     newsLetter,
     mainBanner1,
+    laptop,
+    catbanner,
+    cartlap,
+    catbanner2,
+    catbanner3,
+    catbanner4,
+    services,
+    services2,
+    services3,
+    services4,
+    services5,
+    camera,
+    tv,
+    watch,
+    headphone,
+    speaker,
+    brand1,
+    brand2,
+    brand3,
+    brand4,
+    brand5,
+    brand6,
+    brand7,
+    blog1,
 }
