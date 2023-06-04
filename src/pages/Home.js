@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
+import ProductCard from '../components/ProductCard';
 import {images} from '../constants'
 
 const Home = () => {
@@ -140,31 +141,31 @@ const Home = () => {
             </div>
             <div className='d-flex gap-30 align-items-center'>
               <div>
-                <h6>Cameras</h6>
+                <h6>Game Controllers</h6>
                 <p>10 Items</p>
               </div>
-              <img src={images.camera} alt="camera" />
+              <img src={images.game} alt="controller" style={{width:"90px", height: "70px"}}/>
             </div>
             <div className='d-flex gap-30 align-items-center'>
               <div>
-                <h6>Smart Tv</h6>
+                <h6>Android Smart Phones</h6>
                 <p>10 Items</p>
               </div>
-              <img src={images.tv} alt="tv" />
+              <img src={images.s23} alt="samsung"  />
             </div>
             <div className='d-flex gap-30 align-items-center'>
               <div>
-                <h6>Music</h6>
+                <h6>Apple Smart Phones</h6>
                 <p>10 Items</p>
               </div>
-              <img src={images.headphone} alt="headphones" />
+              <img src={images.iphone} alt="iphone"   />
             </div>
             <div className='d-flex gap-30 align-items-center'>
               <div>
-                <h6>Music</h6>
+                <h6>Smart Watch</h6>
                 <p>10 Items</p>
               </div>
-              <img src={images.speaker} alt="speaker" />
+              <img src={images.smartowatch} alt="speaker"  />
             </div>
           </div>
         </div>
@@ -209,6 +210,23 @@ const Home = () => {
     <section className='blog-wrapper py-5 home-wrapper-2'>
       <div className='container-xxl'>
         <div className='row'>
+          <div className='col-12'>
+            <h3 className='section-heading'>Featured Collection</h3>
+          </div>
+         <ProductCard />
+         <ProductCard />
+         <ProductCard />
+         <ProductCard />
+        
+        </div>
+      </div>
+    </section>
+    <section className='blog-wrapper py-5 home-wrapper-2'>
+      <div className='container-xxl'>
+        <div className='row'>
+          <div className='col-12'>
+            <h3 className='section-heading'>Our Latest Blogs</h3>
+          </div>
          <BlogCard />
          <BlogCard />
          <BlogCard />

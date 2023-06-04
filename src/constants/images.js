@@ -30,6 +30,15 @@ import brand5 from "../assets/images/brand-05.png"
 import brand6 from "../assets/images/brand-06.png"
 import brand7 from "../assets/images/brand-07.png"
 import blog1 from "../assets/images/blog-1.jpg"
+import game from "../assets/images/game.webp"
+import iphone from "../assets/images/iPhone-14-PNG-Image.png"
+import smartowatch from "../assets/images/Smartwatch-PNG-File.png"
+import s23 from "../assets/images/s23.webp";
+import sony from "../assets/images/Sony-Headphone-PNG-Transparent-Picture.png";
+import addcart from "../assets/images/icons8-money-bag-with-coins-24.png";
+import view from "../assets/images/icons8-view-24.png";
+import list from "../assets/images/icons8-todo-list-24.png";
+import love from "../assets/images/icons8-love-24.png";
 
 
 export default {
@@ -64,4 +73,13 @@ export default {
     brand6,
     brand7,
     blog1,
+    game,
+    iphone,
+    s23,
+    smartowatch,
+    sony,
+    addcart,
+    view,
+    list,
+    love
 }
