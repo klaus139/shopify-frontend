@@ -6,9 +6,13 @@ import { Link } from "react-router-dom";
 const ProductCard = () => {
   return (
     <div className="col-3">
-      <div className="product-card position-relative">
+      <Link className="product-card position-relative">
+        <div className="wishlist-icon position-absolute">
+          <Link><img src={images.love} alt="wish" /></Link>
+        </div>
         <div className="product-image">
-          <img src={images.watch} alt="productimage" />
+          <img src={images.watch} alt="productimage" className="img-fluid"/>
+          <img src={images.watch1} alt="productimage" className="img-fluid"style={{width:"250px", height: "250px"}} />
         </div>
         <div className="product-details">
           <h6 className="brands">Havels</h6>
@@ -18,21 +22,21 @@ const ProductCard = () => {
           <ReactStars
             count={5}
             size={24}
-            value="3"
+            value={4}
             edit={false}
             activeColor="#ffd700"
           />
           <p className="price">$100</p>
         </div>
         <div className='action-bar position-absolute'>
-            <div className="d-flex flex-column">
-                <Link><img src={images.love} alt="love" /></Link>
+            <div className="d-flex flex-column gap-10">
+                
                 <Link><img src={images.list} alt="list" /></Link>
                 <Link><img src={images.view} alt="view" /></Link>
                 <Link><img src={images.addcart} alt="cart" /></Link>
             </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

@@ -39,6 +39,13 @@ import addcart from "../assets/images/icons8-money-bag-with-coins-24.png";
 import view from "../assets/images/icons8-view-24.png";
 import list from "../assets/images/icons8-todo-list-24.png";
 import love from "../assets/images/icons8-love-24.png";
+import wish from "../assets/images/wish.svg"
+import watch1 from "../assets/images/watch1-removebg-preview.png"
+import famous1 from "../assets/images/famous2.png";
+import smartSpeaker from "../assets/images/speakers-removebg-preview.png";
+import ippro from "../assets/images/iphone13pro-removebg-preview.png";
+import tablet from "../assets/images/237-2378792_samsung-galaxy-tab-s4-samsung-tab-s4-png-removebg-preview.png";
+import famousblac from "../assets/images/blackbg.webp";
 
 
 export default {
@@ -81,5 +88,12 @@ export default {
     addcart,
     view,
     list,
-    love
+    love,
+    wish,
+    watch1,
+    famous1,
+    smartSpeaker,
+    tablet,
+    ippro,
+    famousblac
 }

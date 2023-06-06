@@ -4,6 +4,9 @@ import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
 import {images} from '../constants'
+import SpecProd from '../components/SpecProd';
+
+
 
 const Home = () => {
   return (
@@ -172,6 +175,104 @@ const Home = () => {
       </div>
 
     </section>
+    <section className='featured-wrapper py-5 home-wrapper-2'>
+      <div className='container-xxl'>
+        <div className='row'>
+          <div className='col-12'>
+            <h3 className='section-heading'>Featured Collection</h3>
+          </div>
+         <ProductCard />
+         <ProductCard />
+         <ProductCard />
+         <ProductCard />
+        
+        </div>
+      </div>
+    </section>
+    <section className='famous-wrapper py-5 home-wrapper-2'>
+      <div className='container-xxl'>
+        <div className='row'>
+          <div className='col-3 d-flex flex-col'>
+            <div className='famous-card position-relative'>
+              <img src={images.famousblac} alt='famous' className='img-fluid' />
+              <div className='famous-content position-absolute'>
+              <h5>Big Screen</h5>
+              <h6>Smart Watch Series 7</h6>
+              <p>From $399 or $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+        
+          </div>
+          <div className='col-3 d-flex flex-col'>
+            <div className='famous-card position-relative'>
+              <img src={images.tablet} alt='famous' className='img-fluid' />
+              <div className='famous-content position-absolute'>
+              <h5>Big Screen</h5>
+              <h6>Smart Watch Series 7</h6>
+              <p>From $399 or $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+        
+          </div>
+          <div className='col-3 d-flex flex-col'>
+            <div className='famous-card position-relative'>
+              <img src={images.ippro} alt='famous' className='img-fluid' />
+              <div className='famous-content position-absolute'>
+              <h5>Big Screen</h5>
+              <h6>Smart Watch Series 7</h6>
+              <p>From $399 or $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+        
+          </div>
+          <div className='col-3 d-flex flex-col'>
+            <div className='famous-card position-relative'>
+              <img src={images.smartSpeaker} alt='famous' className='img-fluid' />
+              <div className='famous-content position-absolute'>
+              <h5>Big Screen</h5>
+              <h6>Smart Watch Series 7</h6>
+              <p>From $399 or $16.62/mo. for 24 mo.*</p>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className='special-wrapper py-5 home-wrapper-2'>
+      <div className='container-xxl'>
+        <div className='row'>
+          <div className='col-12'>
+            <h3 className='section-heading'>Special Products</h3>
+          </div>
+          <div className='row'>
+            <SpecProd />
+            <SpecProd />
+            <SpecProd />
+           
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section className='popular-wrapper py-5 home-wrapper-2'>
+      <div className='container-xxl'>
+        <div className='row'>
+          <div className='col-12'>
+            <h3 className='section-heading'>Our Popular Products</h3>
+          </div>
+        <div className='row'>
+         
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
+
+        
+        </div>
+      </div>
+    </section>
     <section className='marque-wrapper home-wrapper-2 py-5'>
       <div className='container-xxl'>
         <div className='row'>
@@ -207,20 +308,7 @@ const Home = () => {
        
       </div>
     </section>
-    <section className='blog-wrapper py-5 home-wrapper-2'>
-      <div className='container-xxl'>
-        <div className='row'>
-          <div className='col-12'>
-            <h3 className='section-heading'>Featured Collection</h3>
-          </div>
-         <ProductCard />
-         <ProductCard />
-         <ProductCard />
-         <ProductCard />
-        
-        </div>
-      </div>
-    </section>
+    
     <section className='blog-wrapper py-5 home-wrapper-2'>
       <div className='container-xxl'>
         <div className='row'>
