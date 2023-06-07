@@ -42,9 +42,9 @@ import love from "../assets/images/icons8-love-24.png";
 import wish from "../assets/images/wish.svg"
 import watch1 from "../assets/images/watch1-removebg-preview.png"
 import famous1 from "../assets/images/famous2.png";
-import smartSpeaker from "../assets/images/speakers-removebg-preview.png";
-import ippro from "../assets/images/iphone13pro-removebg-preview.png";
-import tablet from "../assets/images/237-2378792_samsung-galaxy-tab-s4-samsung-tab-s4-png-removebg-preview.png";
+import smartSpeaker from "../assets/images/spiko.jpeg";
+import ippro from "../assets/images/ihno.jpeg";
+import tablet from "../assets/images/tab.webp";
 import famousblac from "../assets/images/blackbg.webp";
 
 

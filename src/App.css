@@ -395,16 +395,39 @@ footer .input-group-text{
 }
 
 /* famouse card */
+
+.famous-card{
+  background-color: black;
+}
 .famous-card .famous-content{
   top:10%;
   left: 10%;
+  
 
+}
+.famous-cardd{
+ 
+  background-color: rgb(255, 255, 255);
+
+}
+.famous-cardd .famous-content{
+  top:10%;
+  left: 10%;
+  
+
+}
+.famous-cardd img {
+  border-radius: 10px;
+  margin-top: 150px;
+  
+  
 }
 
 .famous-card img {
   border-radius: 10px;
-  width: auto;
-  height: auto;
+  margin-top: 150px;
+  
+  
 }
 .famous-content h5{
   font-size: 15px;
@@ -421,7 +444,14 @@ footer .input-group-text{
   color:white;
 
 }
-.famous-content p{
+.famous-cardd h6{
+  font-size:24px;
+  line-height: 38px;
+  font-weight: 500;
+  color:white;
+
+}
+.famous-card p{
 font-size: 16px;
 line-height: 24px;
 font-weight: 100;

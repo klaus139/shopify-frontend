@@ -204,34 +204,34 @@ const Home = () => {
         
           </div>
           <div className='col-3 d-flex flex-col'>
-            <div className='famous-card position-relative'>
-              <img src={images.tablet} alt='famous' className='img-fluid' />
+            <div className='famous-cardd position-relative'>
+              <img src={images.tablet} alt='famous' className='img-fluid'  />
               <div className='famous-content position-absolute'>
-              <h5>Big Screen</h5>
-              <h6>Smart Watch Series 7</h6>
-              <p>From $399 or $16.62/mo. for 24 mo.*</p>
+              <h5 className='text-dark'>Studio Display</h5>
+              <h6 className='text-dark'>600 nits of brightness</h6>
+              <p className='text-dark'>27-inch 5k Retina display</p>
               </div>
             </div>
         
           </div>
           <div className='col-3 d-flex flex-col'>
-            <div className='famous-card position-relative'>
+            <div className='famous-cardd position-relative'>
               <img src={images.ippro} alt='famous' className='img-fluid' />
               <div className='famous-content position-absolute'>
-              <h5>Big Screen</h5>
-              <h6>Smart Watch Series 7</h6>
-              <p>From $399 or $16.62/mo. for 24 mo.*</p>
+              <h5 className='text-dark'>SMARTPHONES</h5>
+              <h6 className='text-dark'>Smartphone 13 Pro</h6>
+              <p className='text-dark'>Now in Green. From $999.00 or $41.62/mo. for 24 mo.Footnote</p>
               </div>
             </div>
         
           </div>
           <div className='col-3 d-flex flex-col'>
-            <div className='famous-card position-relative'>
+            <div className='famous-cardd position-relative'>
               <img src={images.smartSpeaker} alt='famous' className='img-fluid' />
               <div className='famous-content position-absolute'>
-              <h5>Big Screen</h5>
-              <h6>Smart Watch Series 7</h6>
-              <p>From $399 or $16.62/mo. for 24 mo.*</p>
+              <h5 className='text-dark'>HOME SPEAKERS</h5>
+              <h6 className='text-dark'>Rooom-filling sound</h6>
+              <p className='text-dark'>From $699 or $116.58/mo. for 12 mo.*</p>
               </div>
             </div>
         
@@ -246,6 +246,7 @@ const Home = () => {
             <h3 className='section-heading'>Special Products</h3>
           </div>
           <div className='row'>
+            <SpecProd />
             <SpecProd />
             <SpecProd />
             <SpecProd />
