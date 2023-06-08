@@ -46,6 +46,10 @@ import smartSpeaker from "../assets/images/spiko.jpeg";
 import ippro from "../assets/images/ihno.jpeg";
 import tablet from "../assets/images/tab.webp";
 import famousblac from "../assets/images/blackbg.webp";
+import gr from "../assets/images/gr.svg"
+import gr2 from "../assets/images/gr2.svg"
+import gr3 from "../assets/images/gr3.svg"
+import gr4 from "../assets/images/gr4.svg"
 
 
 export default {
@@ -95,5 +99,9 @@ export default {
     smartSpeaker,
     tablet,
     ippro,
-    famousblac
+    famousblac,
+    gr,
+    gr2,
+    gr3,
+    gr4,
 }

@@ -1,9 +1,12 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { images } from "../constants";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const ProductCard = () => {
+  let location = useLocation();
+  alert(location)
+
   return (
     <div className="col-3">
       <Link className="product-card position-relative">
