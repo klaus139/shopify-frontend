@@ -2,6 +2,7 @@ import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { images } from "../constants";
 import { Link, useLocation } from "react-router-dom";
+import {IoIosGitCompare} from 'react-icons/io'
 
 const ProductCard = (props) => {
   let location = useLocation();
@@ -35,7 +36,9 @@ const ProductCard = (props) => {
         <div className='action-bar position-absolute'>
           <div className="d-flex flex-column gap-10">
 
-            <Link><img src={images.list} alt="list" /></Link>
+          <Link>
+                <IoIosGitCompare style={{color:"black", width:"20px", height:"20px"}} />
+              </Link>
             <Link><img src={images.view} alt="view" /></Link>
             <Link><img src={images.addcart} alt="cart" /></Link>
           </div>
@@ -69,7 +72,9 @@ const ProductCard = (props) => {
           <div className='action-bar position-absolute'>
             <div className="d-flex flex-column gap-10">
 
-              <Link><img src={images.list} alt="list" /></Link>
+            <Link >
+                <IoIosGitCompare style={{color:"black", width:"20px", height:"20px"}}/>
+              </Link>
               <Link><img src={images.view} alt="view" /></Link>
               <Link><img src={images.addcart} alt="cart" /></Link>
             </div>

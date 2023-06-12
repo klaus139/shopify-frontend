@@ -51,6 +51,7 @@ import gr2 from "../assets/images/gr2.svg"
 import gr3 from "../assets/images/gr3.svg"
 import gr4 from "../assets/images/gr4.svg"
 import vr from "../assets/images/famous1.png"
+import cross from "../assets/images/cross.svg"
 
 
 export default {
@@ -106,4 +107,5 @@ export default {
     gr3,
     gr4,
     vr,
+    cross,
 }
