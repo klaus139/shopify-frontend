@@ -50,6 +50,7 @@ import gr from "../assets/images/gr.svg"
 import gr2 from "../assets/images/gr2.svg"
 import gr3 from "../assets/images/gr3.svg"
 import gr4 from "../assets/images/gr4.svg"
+import vr from "../assets/images/famous1.png"
 
 
 export default {
@@ -104,4 +105,5 @@ export default {
     gr2,
     gr3,
     gr4,
+    vr,
 }

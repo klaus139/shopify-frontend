@@ -7,7 +7,7 @@ import ProductCard from "../components/ProductCard";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
- alert(grid);
+ 
   return (
     <>
       <MetaData title={"Our Store"} />
@@ -169,13 +169,13 @@ const OurStore = () => {
                 <div className="random-products d-flex">
                   <div className="w-50">
                     <img
-                      src={images.headphone}
+                      src={images.vr}
                       alt="headphone"
                       className="img-fluid"
                     />
                   </div>
                   <div className="w-50">
-                    <h5>Kids Headphones Bulk 10 Pack Multi Colored</h5>
+                    <h5>High Quality Virtual Reality Device for indoor and outdoor entertainmemt</h5>
                     <ReactStars
                       count={5}
                       size={24}
@@ -183,7 +183,7 @@ const OurStore = () => {
                       edit={false}
                       activeColor="#ffd700"
                     />
-                    <b>$100.00</b>
+                    <b>$600.00</b>
                   </div>
                 </div>
               </div>
@@ -209,16 +209,18 @@ const OurStore = () => {
                   <div className="d-flex align-items-center gap-10">
                     <p className="totalproducts mb-0"style={{color:"gray"}}>21 Products</p>
                     <div className="d-flex gap-10 align-items-center grid">
-                      <img onClick={()=>{setGrid(4);}} src={images.gr4} alt="grid" className="d-block img-fluid" />
-                      <img onClick={()=>{setGrid(3);}} src={images.gr3} alt="grid" className="d-block img-fluid" />
-                      <img onClick={()=>{setGrid(2);}} src={images.gr2} alt="grid" className="d-block img-fluid" />
-                      <img onClick={()=>{setGrid(1);}} src={images.gr} alt="grid" className="d-block img-fluid" />
+                      <img onClick={()=>{setGrid(3);}} src={images.gr4} alt="grid" className="d-block img-fluid" />
+                      <img onClick={()=>{setGrid(4);}} src={images.gr3} alt="grid" className="d-block img-fluid" />
+                      <img onClick={()=>{setGrid(6);}} src={images.gr2} alt="grid" className="d-block img-fluid" />
+                      <img onClick={()=>{setGrid(12);}} src={images.gr} alt="grid" className="d-block img-fluid" />
                     </div>
                   </div>
                   </div> 
                 </div>
                 <div className="products-list pb-5">
+                  <div className="d-flex gap-10 flex-wrap">
                   <ProductCard grid={grid} />
+                  </div>
 
                 </div>
               </div>
