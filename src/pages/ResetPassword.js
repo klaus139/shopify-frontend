@@ -1,44 +1,22 @@
-import React from "react";
+import React from 'react';
 import BreadCrumb from "../components/BreadCrumb";
 import MetaData from "../components/MetaData";
 
-const Signup = () => {
+const ResetPassword = () => {
   return (
     <>
-      <MetaData title={"Sign Up"} />
-      <BreadCrumb title="Sign Up" />
+    <MetaData title={"Reset Password"} />
+      <BreadCrumb title="Reset Password" />
       <div className="login-wrapper home-wrapper-2 py-5">
         <div className='container-xxl'>
         <div className="row">
           <div className="col-12">
             <div className="auth-card">
-              <h3 className="text-center mb-3">Sign Up</h3>
+              <h3 className="text-center mb-3">Reset Password</h3>
               <form action="" className="d-flex flex-column gap-15">
-                <div className="">
-                  <input
-                    type="name"
-                    name="name"
-                    placeholder="Name"
-                    className="form-control"
-                  />
-                </div>
+                
                
-                <div className="mt-1">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    className="form-control"
-                  />
-                </div>
-                <div className="mt-1">
-                  <input
-                    type="tel"
-                    name="mobile"
-                    placeholder="Mobile Number"
-                    className="form-control"
-                  />
-                </div>
+                
                 <div className="mt-1">
                   <input
                     type="password"
@@ -47,10 +25,18 @@ const Signup = () => {
                     className="form-control"
                   />
                 </div>
+                <div className="mt-1">
+                  <input
+                    type="password"
+                    name="Confpassword"
+                    placeholder="Password"
+                    className="form-control"
+                  />
+                </div>
                 <div className="mt-3">
                   
                   <div className="d-flex justify-content-center gap-15 align-items-center mt-3">
-                    <button className="button border-0">Create</button>
+                    <button className="button border-0">Ok</button>
                     
                   </div>
                 </div>
@@ -61,7 +47,7 @@ const Signup = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Signup;
+export default ResetPassword

@@ -13,7 +13,7 @@ const BlogCard = () => {
                 <p className='date'>1 June 2023</p>
                 <h5 className='title'>A Nice Way To Start Your Day</h5>
                 <p className='desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-                <Link className="bloglink" to="/">Read More</Link>
+                <Link to="/blog/:id" className="bloglink" >Read More</Link>
             </div>
         </div>
 
