@@ -5,15 +5,15 @@ import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
 import {images} from '../constants'
 import SpecProd from '../components/SpecProd';
+import Container from '../components/Container';
 
 
 
 const Home = () => {
   return (
     <>
-    <section className="home-wrapper-1 py-5">
-      <div className='container-xxl'>
-        <div className="row">
+    <Container class1='home-wrapper-1 py-5'>
+    <div className='row'>
           <div className='col-6'>
             <div className='main-banner position-relative p-3'>
               <img src={images.mainBanner1} className='img-fluid rounded-3' alt='mainbanner' />
@@ -61,11 +61,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section className="home-wrapper-2 py-5">
-      <div className='container-xxl'>
-        <div className='row'>
+    </Container>
+    <Container class1='home-wrapper-2 py-5'>
+    <div className='row'>
           <div className='col-12'>
             <div className='services d-flex align-items-center justify-content-between'>
               <div className='d-flex align-items-center gap-15'>
@@ -107,12 +105,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
 
-    </section>
-    <section className='home-wrapper-2 py-5'>
-      <div className='container-xxl'>
-        <div className='row'>
+    </Container>
+    <Container class1='home-wrapper-2 py-5'>
+    <div className='row'>
           <div className='categories d-flex justify-content-between flex-wrap align-items-center'>
             <div className='d-flex gap-30 align-items-center'>
               <div>
@@ -172,12 +168,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
 
-    </section>
-    <section className='featured-wrapper py-5 home-wrapper-2'>
-      <div className='container-xxl'>
-        <div className='row'>
+    </Container>
+    <Container class1='featured-wrapper py-5 home-wrapper-2'>
+    <div className='row'>
           <div className='col-12'>
             <h3 className='section-heading'>Featured Collection</h3>
           </div>
@@ -187,11 +181,9 @@ const Home = () => {
          <ProductCard />
         
         </div>
-      </div>
-    </section>
-    <section className='famous-wrapper py-5 home-wrapper-2'>
-      <div className='container-xxl'>
-        <div className='row'>
+    </Container>
+    <Container class1='famous-wrapper py-5 home-wrapper-2'>
+    <div className='row'>
           <div className='col-3 d-flex flex-col'>
             <div className='famous-card position-relative'>
               <img src={images.famousblac} alt='famous' className='img-fluid' />
@@ -237,11 +229,10 @@ const Home = () => {
         
           </div>
         </div>
-      </div>
-    </section>
-    <section className='special-wrapper py-5 home-wrapper-2'>
-      <div className='container-xxl'>
-        <div className='row'>
+
+    </Container>
+    <Container class1='special-wrapper py-5 home-wrapper-2'>
+    <div className='row'>
           <div className='col-12'>
             <h3 className='section-heading'>Special Products</h3>
           </div>
@@ -253,12 +244,9 @@ const Home = () => {
            
           </div>
         </div>
-      </div>
-
-    </section>
-    <section className='popular-wrapper py-5 home-wrapper-2'>
-      <div className='container-xxl'>
-        <div className='row'>
+    </Container>
+    <Container class1='popular-wrapper py-5 home-wrapper-2'>
+    <div className='row'>
           <div className='col-12'>
             <h3 className='section-heading'>Our Popular Products</h3>
           </div>
@@ -272,11 +260,10 @@ const Home = () => {
 
         
         </div>
-      </div>
-    </section>
-    <section className='marque-wrapper home-wrapper-2 py-5'>
-      <div className='container-xxl'>
-        <div className='row'>
+
+    </Container>
+    <Container class1='marque-wrapper home-wrapper-2 py-5'>
+    <div className='row'>
         <div className='col-12'>
           <div className='marquee-inner-wrapper card-wrapper'>
             <Marquee className='d-flex'>
@@ -306,13 +293,10 @@ const Home = () => {
           </div>
         </div>
         </div>
-       
-      </div>
-    </section>
-    
-    <section className='blog-wrapper py-5 home-wrapper-2'>
-      <div className='container-xxl'>
-        <div className='row'>
+
+    </Container>
+    <Container class1='blog-wrapper py-5 home-wrapper-2'>
+    <div className='row'>
           <div className='col-12'>
             <h3 className='section-heading'>Our Latest Blogs</h3>
           </div>
@@ -331,8 +315,8 @@ const Home = () => {
           </div>
          </div>
         </div>
-      </div>
-    </section>
+    </Container>
+    
     </>
   )
 }

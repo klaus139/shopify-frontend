@@ -4,6 +4,7 @@ import MetaData from "../components/MetaData";
 import { AiFillMail } from 'react-icons/ai';
 import {IoIosHome, IoIosCall} from 'react-icons/io';
 import {FaInfo} from 'react-icons/fa'
+import Container from "../components/Container";
 
 
 const Contact = () => {
@@ -11,8 +12,8 @@ const Contact = () => {
     <>
       <MetaData title={"Contact"} />
       <BreadCrumb title="Contact" />
-      <div className="contact-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="contact-wrapper home-wrapper-2 py-5">
+        
           <div className="row">
             <div className="col-12">
               <iframe
@@ -86,8 +87,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        
+      </Container>
     </>
   );
 };

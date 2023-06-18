@@ -13,7 +13,7 @@ const ProductCard = (props) => {
     <><div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3"}`}>
       <Link  to=':id' className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
-          <Link><img src={images.love} alt="wish" /></Link>
+          <button className="border-0 bg-transparent"><img src={images.love} alt="wish" /></button>
         </div>
         <div className="product-image">
           <img src={images.watch} alt="productimage" className="img-fluid" />
@@ -36,18 +36,18 @@ const ProductCard = (props) => {
         <div className='action-bar position-absolute'>
           <div className="d-flex flex-column gap-10">
 
-          <Link>
+          <button className="border-0 bg-transparent">
                 <IoIosGitCompare style={{color:"black", width:"20px", height:"20px"}} />
-              </Link>
-            <Link><img src={images.view} alt="view" /></Link>
-            <Link><img src={images.addcart} alt="cart" /></Link>
+              </button>
+            <button className="border-0 bg-transparent"><img src={images.view} alt="view" /></button>
+            <button className="border-0 bg-transparent"><img src={images.addcart} alt="cart" /></button>
           </div>
         </div>
       </Link>
     </div><div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3"}`}>
         <Link className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
-            <Link><img src={images.love} alt="wish" /></Link>
+            <button className="border-0 bg-transparent"><img src={images.love} alt="wish" /></button>
           </div>
           <div className="product-image">
             <img src={images.watch} alt="productimage" className="img-fluid" />
@@ -72,11 +72,11 @@ const ProductCard = (props) => {
           <div className='action-bar position-absolute'>
             <div className="d-flex flex-column gap-10">
 
-            <Link >
+            <button className="border-0 bg-transparent">
                 <IoIosGitCompare style={{color:"black", width:"20px", height:"20px"}}/>
-              </Link>
-              <Link><img src={images.view} alt="view" /></Link>
-              <Link><img src={images.addcart} alt="cart" /></Link>
+              </button>
+              <button className="border-0 bg-transparent"><img src={images.view} alt="view" /></button>
+              <button><img src={images.addcart} alt="cart" /></button>
             </div>
           </div>
         </Link>

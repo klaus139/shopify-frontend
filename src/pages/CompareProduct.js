@@ -3,13 +3,14 @@ import BreadCrumb from "../components/BreadCrumb";
 import MetaData from "../components/MetaData";
 import { images } from '../constants';
 import Color from '../components/Color';
+import Container from '../components/Container';
 const CompareProduct = () => {
   return (
    <>
     <MetaData title={"Compare Products"} />
       <BreadCrumb title="Compare Products" />
-      <div className='compare-product-wrapper home-wrapper-2 py-5'>
-        <div className='container-xxl'>
+      <Container class1='compare-product-wrapper home-wrapper-2 py-5'>
+        
             <div className='row'>
                 <div className="col-3">
                     <div className='compare-product-card position-relative'>
@@ -100,8 +101,8 @@ const CompareProduct = () => {
                     </div>
                 </div>
             </div>
-        </div>
-      </div>
+        
+      </Container>
    </>
   )
 }

@@ -2,14 +2,15 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import MetaData from "../components/MetaData";
 import BlogCard from "../components/BlogCard";
+import Container from "../components/Container";
 
 const Blog = () => {
   return (
     <>
       <MetaData title={"Blogs"} />
       <BreadCrumb title="Blogs" />
-      <div className="blog-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="blog-wrapper home-wrapper-2 py-5">
+        
           <div className="row">
             <div className="col-3">
               {" "}
@@ -42,8 +43,8 @@ const Blog = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      
+      </Container>
     </>
   );
 };

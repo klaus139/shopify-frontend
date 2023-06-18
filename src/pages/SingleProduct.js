@@ -11,6 +11,7 @@ import { TbGitCompare } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
 //import { images } from "../constants";
 import Color from "../components/Color";
+import Container from "../components/Container";
 
 const SingleProduct = () => {
   //const props = {width: 400, height: 250, zoomWidth: 500, img: {images.watch}};
@@ -28,9 +29,8 @@ const SingleProduct = () => {
     <>
       <MetaData title={"Product Name"} />
       <BreadCrumb title="Product Name" />
-      <div className="product-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
-          <div className="row">
+      <Container class1='product-wrapper py-5 home-wrapper-2'>
+      <div className="row">
             <div className="col-6">
               <div className="main-product-image">
                 <div>
@@ -202,11 +202,10 @@ const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="description-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
-          <div className="row">
+
+      </Container>
+      <Container class1='description-wrapper py-5 home-wrapper-2'>
+      <div className="row">
             <div className="col-12">
               <h4>Description</h4>
               <div className="bg-white p-3">
@@ -221,8 +220,9 @@ const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
+      </Container>
+     
       <section id="review" className="reviews-wrapper home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
