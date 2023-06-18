@@ -10,7 +10,7 @@ const Color = () => {
           <li style={{ backgroundColor: "green" }}></li>
           <li style={{ backgroundColor: "yellow" }}></li>
           <li style={{ backgroundColor: "purple" }}></li>
-          <li style={{ backgroundColor: "orange" }}></li>
+          {/* <li style={{ backgroundColor: "orange" }}></li>
           <li style={{ backgroundColor: "pink" }}></li>
           <li style={{ backgroundColor: "cyan" }}></li>
           <li style={{ backgroundColor: "magenta" }}></li>
@@ -24,7 +24,7 @@ const Color = () => {
           <li style={{ backgroundColor: "olive" }}></li>
           <li style={{ backgroundColor: "salmon" }}></li>
           <li style={{ backgroundColor: "turquoise" }}></li>
-          <li style={{ backgroundColor: "maroon" }}></li>
+          <li style={{ backgroundColor: "maroon" }}></li> */}
         </ul>
       </div>
     </>
